@@ -1,7 +1,7 @@
 "use client";
 import Head from '@/components/Head';
 import { categories } from "@data";
-import WorkList from "../../d2__ecommerce/components/Worklist";
+import WorkList from "../components/Worklist";
 import { useEffect, useState } from "react";
 import "@styles/Categories.scss";
 import Loader from "./Loader";

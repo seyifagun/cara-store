@@ -4,7 +4,6 @@ import abstract2 from "../public/Afro_art/abstract_art2.webp";
 import abstract3 from "../public/Afro_art/abstract_art3.webp";
 import abstract4 from "../public/Afro_art/abstract_art4.webp";
 import abstract5 from "../public/Afro_art/abstract_art5.webp";
-
 import drummer_queens from "../public/Afro_art/3_women.jpg";
 import eyo_festival from "../public/Afro_art/3_dots.jpg";
 import cardImg3 from "../public/Afro_art/friends.jpg";
