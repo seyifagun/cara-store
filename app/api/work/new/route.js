@@ -30,7 +30,7 @@ export async function POST (req) {
       const buffer = Buffer.from(bytes)
 
       // Define the destination path for the uploaded file
-      const workImagePath = `C:/CMP7246/D2__MERN/d2__ecommerce/public/uploads/${photo.name}`
+      const workImagePath = `C:/CMP7246/webdevD2__latest/public/uploads/${photo.name}`
 
       // Write the buffer to the filessystem
       await writeFile(workImagePath, buffer)
