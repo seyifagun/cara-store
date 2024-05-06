@@ -29,9 +29,6 @@ export const heroSectionCarousel = [
 
 export const CardImage = [
     {
-        image: images.drummer_queens
-    },
-    {
         image1: images.eyo_festival
     },
 
