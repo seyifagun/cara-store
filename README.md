@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Student Information
+
+```bash
+Name - Oluwaseyi Fagun
+Student ID - 22191878
+Project Description - The Project (Cara Store) is an online Art Work Marketplace where people buy or sell their art works.
+```
+
+```bash
+The web app consists of several functions:
+i. Ability to either login manually or login with the Google Authentication Mechanism auto matically. The same goes for Registration
+ii. Send feedback or contact web admin via the contact us page
+iii. Creation of art work sale
+iv. Add an artwork to wishlist
+v.  Add to cart
+vi. Implementation of stripe to finalise a transaction.
+```
 
 ## Getting Started
 
-First, run the development server:
+```[1] First, install all the dependencies```
+
+```bash
+npm install
+```
+
+```[2] Run the development server:```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```[3] Open the link below in any browser of your choice ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3030](http://localhost:3030) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+```[4] Below are the sample of Strip card details to finalise the payment of an artwork ```
 
-To learn more about Next.js, take a look at the following resources:
+card number - 4242424242424242, CVC - any 3 digit, date - any future date
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## To see the online deployed version of the project, visit the link below:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To explore the online version, visit: https://cara-store-chi.vercel.app/
